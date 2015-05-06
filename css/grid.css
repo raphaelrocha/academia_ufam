@@ -1,0 +1,30 @@
+table
+{
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    width:100%;
+    border-collapse: collapse;
+}
+table, td, th
+{
+    border: 1px solid black;
+    text-align: center;
+}
+th {
+    height: 20px;
+    text-align: center;
+    font-size:1.2em;
+    //padding-top:5px;
+    padding-bottom:4px;
+    background-color:#2E82FF;
+    color:#fff;
+}
+td {
+    height: 25px;
+    //vertical-align: bottom;
+    text-align: center;
+    color:#fff;
+    font-size:1.2em;
+}
+mousechange:hover {
+    cursor:pointer;
+}
